@@ -1,5 +1,5 @@
 
-# Data Reconstruction and Forecasting for Meteorological Data
+# Reconstruction and Forecasting for Meteorological Data
 
 
 This repository uses the open-source "Wind Spatio-Temporal Dataset1" (https://zenodo.org/records/5516543) which contains wind speed data collected from 120 turbines in an inland wind farm over two years. 
