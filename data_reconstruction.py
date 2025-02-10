@@ -71,8 +71,8 @@ if __name__ == "__main__":
 
     # merge data and push to dataset location; including untouched dataset for benchmark testing
     data_complete = pd.concat([data_recon, data_safe])
-    data_complete.to_csv(os.path.join('TimeGNN', 'datasets', 'WindSTData_recon.csv'))
-    data.to_csv(os.path.join('TimeGNN', 'datasets', 'WindSTData.csv'))
+    data_complete.to_csv(os.path.join('TimeGNN', 'datasets', 'WindSTData_recon.csv'), index=False)
+    data.to_csv(os.path.join('TimeGNN', 'datasets', 'WindSTData.csv'), index=False)
 
     # for the GNN, please call TimeGNN_train.py, which is a reconfigured branch of the third-party open-source TimeGNN
     # Xu et al., 2023 (https://doi.org/10.48550/arXiv.2307.14680)
